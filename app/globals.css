@@ -120,3 +120,38 @@ html.dark body::before {
       transparent 1px
     );
 }
+/* FIX INPUT TEXT COLOR + AUTOFILL */
+
+input,
+textarea {
+  color: #111111;
+}
+
+html.dark input,
+html.dark textarea {
+  color: #ffffff;
+}
+
+/* CHROME AUTOFILL FIX */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: #111111 !important;
+
+  transition: background-color 9999s ease-in-out 0s;
+
+  box-shadow: 0 0 0px 1000px #f8f6f2 inset !important;
+}
+
+/* DARK MODE AUTOFILL */
+
+html.dark input:-webkit-autofill,
+html.dark textarea:-webkit-autofill {
+  -webkit-text-fill-color: #ffffff !important;
+
+  box-shadow: 0 0 0px 1000px #111111 inset !important;
+}

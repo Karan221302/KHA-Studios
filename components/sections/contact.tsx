@@ -201,34 +201,34 @@ export default function Contact() {
               name="name"
               placeholder="Your Name"
               className="
-                w-full
-                rounded-2x1
+  w-full
+  rounded-2xl
 
-                border border-black/50
-                bg-white/70
+  border border-black/12
+  bg-[#f8f6f2]
 
-                shadow-inner
-                px-6 py-4
+  px-6 py-4
 
-                text-black
-                outline-none
+  text-black
+  placeholder:text-[#8a8a8a]
 
-                placeholder:text-[#777777]
+  outline-none
 
-                dark:border-white/20
-                focus:ring-2
-                focus:ring-black/5
+  transition-all duration-300
 
-                dark:border-whilte/10
-                dark:bg-white/[0.03]
+  focus:border-black/25
+  focus:ring-2
+  focus:ring-black/5
 
-                dark:text-[#ff5f5f5]
+  dark:border-white/10
+  dark:bg-white/[0.03]
 
-                dark:placeholder:text-[#6f6f6f]
+  dark:text-white
+  dark:placeholder:text-[#6f6f6f]
 
-                dark:focus:border-white/20
-                dark:focus:ring-white/5  
-              "
+  dark:focus:border-white/20
+  dark:focus:ring-white/5
+"
             />
 
             <input
@@ -236,34 +236,34 @@ export default function Contact() {
               name="email"
               placeholder="Email Address"
               className="
-              w-full
-              rounded-2xl
+  w-full
+  rounded-2xl
 
-              border border-black/15
-              bg-white/70
+  border border-black/12
+  bg-[#f8f6f2]
 
-              shadow-inner
-              px-6 py-4
+  px-6 py-4
 
-              text-black
-              outline-none
+  text-black
+  placeholder:text-[#8a8a8a]
 
-              placeholder:text-[#777777]
+  outline-none
 
-              dark:border-white/20
-              focus:ring-2
-              focus:ring-black/5
+  transition-all duration-300
 
-              dark:border-whilte/10
-              dark:bg-white/[0.03]
+  focus:border-black/25
+  focus:ring-2
+  focus:ring-black/5
 
-              dark:text-[#ff5f5f5]
+  dark:border-white/10
+  dark:bg-white/[0.03]
 
-              dark:placeholder:text-[#6f6f6f]
+  dark:text-white
+  dark:placeholder:text-[#6f6f6f]
 
-              dark:focus:border-white/20
-              dark:focus:ring-white/5  
-            "
+  dark:focus:border-white/20
+  dark:focus:ring-white/5
+"
             />
 
             <textarea
@@ -271,34 +271,34 @@ export default function Contact() {
               placeholder="Tell us about your project"
               rows={5}
               className="
-              w-full
-              rounded-2xl
+  w-full
+  rounded-2xl
 
-              border border-black/15
-              bg-white/70
+  border border-black/12
+  bg-[#f8f6f2]
 
-              shadow-inner
-              px-6 py-4
+  px-6 py-4
 
-              text-black
-              outline-none
+  text-black
+  placeholder:text-[#8a8a8a]
 
-              placeholder:text-[#777777]
+  outline-none
 
-              dark:border-white/20
-              focus:ring-2
-              focus:ring-black/5
+  transition-all duration-300
 
-              dark:border-whilte/10
-              dark:bg-white/[0.03]
+  focus:border-black/25
+  focus:ring-2
+  focus:ring-black/5
 
-              dark:text-[#ff5f5f5]
+  dark:border-white/10
+  dark:bg-white/[0.03]
 
-              dark:placeholder:text-[#6f6f6f]
+  dark:text-white
+  dark:placeholder:text-[#6f6f6f]
 
-              dark:focus:border-white/20
-              dark:focus:ring-white/5  
-            "
+  dark:focus:border-white/20
+  dark:focus:ring-white/5
+"
             />
 
 <button
