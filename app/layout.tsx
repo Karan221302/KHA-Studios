@@ -4,9 +4,12 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "KHA STUDIOS",
+  title: "KHA STUDIOS | Architecture & Interior Design",
   description:
-    "Architectural & Interior Design Studio",
+    "KHA Studios provides architectural design, interior design, planning and 3D visualization servies.",
+    verification:{
+      google: "uIYKlljoFmBqCPZ9qHBdyn7EWl5Dq4uwvoUnPhk5RpU"
+    }
 };
 
 export default function RootLayout({
