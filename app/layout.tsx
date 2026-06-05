@@ -4,9 +4,19 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "KHA STUDIOS | Architecture & Interior Design",
+  title: "KHA STUDIOS | Architecture, Interior Design & 3D Visualization",
   description:
     "KHA Studios provides architectural design, interior design, planning and 3D visualization services.",
+    keywords:[
+      "KHA Studios",
+      "Architect",
+      "Architecture",
+      "Interior Design",
+      "3D Visualization",
+      "Residential Design",
+      "Commercial Design",
+      "Kolhapur Architect",
+    ],
     verification:{
       google: "uIYKlljoFmBqCPZ9qHBdyn7EWl5Dq4uwvoUnPhk5RpU",
       
